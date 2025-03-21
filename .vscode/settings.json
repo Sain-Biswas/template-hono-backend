@@ -1,3 +1,18 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib"
+  // Use Project Typescript Version
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // On Save Code Actions
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.ts": "always",
+    "source.organizeImports": "always",
+    "source.removeUnused.ts": "always",
+    "source.removeUnusedImports": "always",
+    "source.sortImports": "always"
+  },
+
+  // Auto save files
+  "files.autoSave": "onFocusChange",
 }
